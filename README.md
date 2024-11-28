@@ -209,6 +209,7 @@ You need Node.js (which includes npm, the Node Package Manager) to set up your d
    ```
 
 4. Start the Build
+   
    a. Start the build process:
    ```bash
    eas build --platform ios --profile preview
