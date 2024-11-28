@@ -206,7 +206,8 @@ You need Node.js (which includes npm, the Node Package Manager) to set up your d
 - Use Expo Go for rapid testing.
 - Build standalone apps for final deployment.
 - Add finishing touches like sound effects, animations, and a custom app icon before publishing.
-```
+  
+---
 
 # Key Project Files in React Native
 
