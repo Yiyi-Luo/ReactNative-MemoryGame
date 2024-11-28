@@ -160,7 +160,22 @@ You need Node.js (which includes npm, the Node Package Manager) to set up your d
    - Sign in with your Apple ID
    - Register as a developer
    - **Membership Details**: **Team ID**: C4N82946GY
-   - Go to App Store, download Xcode (it's quite large, about 12GB); then configure Xcode properly: first, run this command to reset Xcode configuration: sudo xcode-select-reset; then open Xcode to accept the license agreement, install additional components, complete first-time setup; after Xcode setup is complete, run: xcode-select-p, then try building again;
+
+### Setting Up Xcode
+
+1. **Download Xcode** from the App Store (Note: Xcode is large, approximately 12GB).
+2. **Configure Xcode** after installation:
+   - Open a terminal and reset Xcode configuration:
+     ```bash
+     sudo xcode-select --reset
+     ```
+   - Open Xcode and:
+     - Accept the license agreement.
+     - Install additional components.
+     - Complete the first-time setup.
+3. After the setup is complete, verify the installation:
+   ```bash
+   xcode-select -p
 
 ---
 
