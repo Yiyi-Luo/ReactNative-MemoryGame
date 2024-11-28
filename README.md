@@ -209,17 +209,18 @@ You need Node.js (which includes npm, the Node Package Manager) to set up your d
    ```
 
 4. Start the Build
-   - a. Start the build process:
+   a. Start the build process:
    ```bash
    eas build --platform ios --profile preview
    ```
-   - b. During the build process, you will be asked how you would like to register your devices.  
-   - Choose **Websites**.  
-   - This option will generate a registration URL that can be opened on your devices.
    
-   - c. If you encounter an error indicating that the bundle identifier is already taken:
-   - Open your `app.json` file.
-   - Update the `ios.bundleIdentifier` to something unique, for example:
+   b. During the build process, you'll be asked to register devices:
+   - Choose **Websites**
+   - This option generates a registration URL for your devices
+   
+   c. If the bundle identifier is already taken:
+   - Open `app.json`
+   - Update `ios.bundleIdentifier` to something unique:
      ```json
      "ios": {
        "bundleIdentifier": "com.yiyi19911211.memorygame2023"
