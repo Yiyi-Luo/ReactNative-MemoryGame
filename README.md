@@ -208,13 +208,25 @@ You need Node.js (which includes npm, the Node Package Manager) to set up your d
    }
    ```
 
-4. Start the build:
+```markdown
+4. Start the Build
+
+a. Start the build process:
    ```bash
    eas build --platform ios --profile preview
-   When asked how you would like to register your devices, just go with Websites - generates a registration URL to be opened on your devices
-   If the bundle identifier is already taken, just change it in your app.json to something more unique: for example, "com.yiyi19911211.memorygame2023"
    ```
+b. During the build process, you will be asked how you would like to register your devices.  
+   - Choose **Websites**.  
+   - This option will generate a registration URL that can be opened on your devices.
 
+c. If you encounter an error indicating that the bundle identifier is already taken:
+   - Open your `app.json` file.
+   - Update the `ios.bundleIdentifier` to something unique, for example:
+     ```json
+     "ios": {
+       "bundleIdentifier": "com.yiyi19911211.memorygame2023"
+     }
+     ```
 ---
 
 ## Step 6: Add Animations and Sound Effects
