@@ -208,7 +208,6 @@ You need Node.js (which includes npm, the Node Package Manager) to set up your d
    }
    ```
 
-```markdown
 4. Start the Build
 
 a. Start the build process:
