@@ -18,6 +18,69 @@ I recently learned how **React Native** has revolutionized app development for i
   - Much easier to learn if you know JavaScript  
 - **Adoption**: Used by major apps like Instagram, Discord, and Walmart  rd, Walmart
 
+# History of React Native
+
+React Native was first announced by Facebook (now Meta) in 2015! Here's an interesting timeline:
+
+### 2015
+- **March**: Facebook announces React Native at React.js Conf  
+- **March 26**: React Native becomes open source  
+- Initial release only supported iOS  
+
+### 2015 (September)
+- Android support added  
+- Companies like Instagram and Airbnb start adopting it  
+
+### 2016-2018
+- **Massive adoption period**  
+- Major companies switch to React Native:
+  - Facebook Ads Manager  
+  - Instagram  
+  - Discord  
+  - Walmart  
+  - UberEats  
+  - Skype  
+
+### 2019-2020
+- New architecture announced  
+- Improved performance  
+- Better native module support  
+
+### 2022-2023
+- "The New Architecture" released  
+- Key features introduced:
+  - **Fabric**: New rendering system  
+  - **Turbo Modules**: Better native bridge  
+  - Improved performance and stability  
+
+### 2024 (Current)
+- Used by thousands of apps  
+- Very stable and mature  
+- Large ecosystem of libraries  
+- Strong community support  
+
+---
+
+### Why React Native Was Revolutionary
+
+#### Before React Native
+- Developers HAD to:
+  - Use **Swift/Objective-C** for iOS  
+  - Use **Java/Kotlin** for Android  
+  - Maintain **two separate codebases**  
+  - Have **two different development teams**  
+
+#### After React Native
+- One codebase for both platforms  
+- Use **JavaScript/React** (more developers are familiar with this)  
+- Faster development  
+- Smaller teams needed  
+
+---
+
+### Conclusion
+React Native solved a huge pain point in mobile development. The ability to **write once and run on both platforms** was a game-changer, especially for smaller companies that couldn't afford separate iOS and Android teams.
+
 # Setting Up Expo Go and Creating a React Native App
 
 ## Step 1: Install Expo Go
